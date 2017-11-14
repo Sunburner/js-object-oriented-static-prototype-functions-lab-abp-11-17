@@ -2,7 +2,7 @@ function IcebreakerResponse(email){
   this.email = email
 }
 
-Icebreaker.BatchCreate = function(emails){
+IcebreakerResponse.BatchCreate = function(emails){
   let icebreakers = []
   emails.forEach(function(email){
     icebreakers.push(new IcebreakerResponse(email))
@@ -10,11 +10,11 @@ Icebreaker.BatchCreate = function(emails){
 
   return icebreakers
 }
-  
+
 //   return data.map(function(IcebreakerResponseData) {
 //     return new IcebreakerResponse(IcebreakerResponseData[0], IcebreakerResponseData [1])
 //   })
-// 
+//
 // }
 
 // // return emails.map(function(email){
