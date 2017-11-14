@@ -3,19 +3,19 @@ function IcebreakerResponse(email){
 }
 
 IcebreakerResponse.BatchCreate = function(emails){
-  let icebreakers = []
-  emails.forEach(function(email){
-    icebreakers.push(new IcebreakerResponse(email))
+//   let icebreakers = []
+//   emails.forEach(function(email){
+//     icebreakers.push(new IcebreakerResponse(email))
+//   })
+// 
+//   return icebreakers
+// }
+
+  return emails.map(function(email) {
+    return new IcebreakerResponse(email)
   })
 
-  return icebreakers
 }
-
-//   return data.map(function(IcebreakerResponseData) {
-//     return new IcebreakerResponse(IcebreakerResponseData[0], IcebreakerResponseData [1])
-//   })
-//
-// }
 
 // // return emails.map(function(email){
 // //   return new IcebreakerResponse(email)
