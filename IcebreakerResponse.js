@@ -21,9 +21,9 @@ IcebreakerResponse.BatchCreate = function(emails){
 // //   return new IcebreakerResponse(email)
 // })
 // }
-  const email = [
-    ["Avi", "avi@flatironschool.com"],
-    ["Grace", "grace@hopper.com"],
-    ["Alan", "alan@xparc.com"]
-  ]
-let users = IcebreakerResponse.BatchCreate(data)
+//   const email = [
+//     ["Avi", "avi@flatironschool.com"],
+//     ["Grace", "grace@hopper.com"],
+//     ["Alan", "alan@xparc.com"]
+//   ]
+// let users = IcebreakerResponse.BatchCreate(data)
